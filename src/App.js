@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar'
+import { Switch, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import Projects from './components/Projects';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Navbar />
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className='app'>
+        <NavBar />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/Projects' component={Projects} />
+        </Switch>
       </div>
     );
   }
