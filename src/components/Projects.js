@@ -18,6 +18,14 @@ const Projects = (props) => {
 					practices of today. As colaborative project with David Azaria and Yanina Tsutieva, <br />
 					Halsa is a one-stop shop for users to register and deiscover best plans that suit their needs. </p>
 			</div>
+			<div className='container'>
+				<h2>Boozebible</h2>
+				<a href='https://git.generalassemb.ly/Halsa/project-3'>View on Github</a>
+				<p>Ever thought to yourself, "what can I make with celery and pickle juice <br />
+					into something boozy?" The answer to this problem is Boozebible! With <br />
+					Boozebible, easily search an extensive cocktail API by name or just that <br />
+					batch of tomatoes you so desperately want to get rid of. </p>
+			</div>
 		</div>
 	)
 }
