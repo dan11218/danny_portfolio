@@ -13,7 +13,7 @@ const Projects = (props) => {
 			</div>
 			<div className='container'>
 				<h2>Halsa Health</h2>
-				<a href='https://git.generalassemb.ly/Halsa/project-3'>View on Github</a>
+				<a href='https://git.generalassemb.ly/Halsa/project-3'>View on Github</a><br />
 				<a href='https://halsa.herokuapp.com/'>Visit Site</a>
 				<p>Halsa Health is a patient's solution to the archaic health insurance <br />
 					practices of today. As colaborative project with David Azaria and Yanina Tsutieva, <br />
@@ -21,7 +21,7 @@ const Projects = (props) => {
 			</div>
 			<div className='container'>
 				<h2>Boozebible</h2>
-				<a href='https://git.generalassemb.ly/Halsa/project-3'>View on Github</a>
+				<a href='https://git.generalassemb.ly/Halsa/project-3'>View on Github</a><br />
 				<a href='https://boozebible.herokuapp.com/'>Visit Site</a>
 				<p>Ever thought to yourself, "what can I make with celery and pickle juice <br />
 					into something boozy?" The answer to this problem is Boozebible! With <br />
