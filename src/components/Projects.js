@@ -17,7 +17,7 @@ const Projects = (props) => {
 				<a href='https://halsa.herokuapp.com/'>Visit Site</a>
 				<p>Halsa Health is a patient's solution to the archaic health insurance <br />
 					practices of today. As colaborative project with David Azaria and Yanina Tsutieva, <br />
-					Halsa is a one-stop shop for users to register and deiscover best plans that suit their needs. </p>
+					Halsa is a one-stop shop for users to register and discover best plans that suit their needs. </p>
 			</div>
 			<div className='container'>
 				<h2>Boozebible</h2>
