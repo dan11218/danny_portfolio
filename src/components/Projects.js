@@ -6,6 +6,21 @@ const Projects = (props) => {
 	return (
 		<div className='container'>
 			<div className='card' style={{width: '18rem;'}}>
+				<img alt='CATalog' className='card-img-top' src={require('../images/catalog.png')} />
+				<div className='card-body'>
+					<h2 className='card-title'>CATalog</h2>
+					<p className='card-text'>
+						HILDA is a platform for school psychologists to get organized and easily
+						manage their day to day projects. HILDA makes it easy to quickly view all
+						your cases, add new cases/students, and connect and share a child's IEP
+						progress with their parents.
+					</p>
+					<a className='btn btn-dark' href='https://github.com/dan11218/CATalog'>View on Github</a><span> </span>
+					<a className='btn btn-dark' href='https://nameless-ravine-18613.herokuapp.com/'>Visit Site</a>
+				</div>
+			</div>
+			<br />
+			{/* <div className='card' style={{width: '18rem;'}}>
 				<div className='card-body'>
 					<h2 className='card-title'>HILDA</h2>
 					<p className='card-text'>
@@ -16,7 +31,7 @@ const Projects = (props) => {
 					</p>
 					<a className='btn btn-dark' href='https://git.generalassemb.ly/dan11218-GA/project_4'>View on Github</a>
 				</div>
-			</div>
+			</div> */}
 			<br />
 			<div className='card' style={{width: '18rem;'}}>
 				<img alt='halsa' className='card-img-top' src={require('../images/halsa.png')} />
