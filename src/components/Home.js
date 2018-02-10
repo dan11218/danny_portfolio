@@ -12,8 +12,8 @@ const HomePage = (props) => {
 				When I am not wearing the hat of an engineer, I am a writer looking
 				for a new book to pick for inspiration or to write a new chapter in my memoir
 			</p>
-			<a href='https://www.github.com/dan11218'><i className='fa fa-github'  style={{fontSize: 48}}></i></a> <span> </span>
-			<a href='https://www.linkedin.com/in/danielgraugnard'><i className='fa fa-linkedin-square' style={{fontSize: 48}}></i></a>
+			<a href='https://www.github.com/dan11218'><i className='fa fa-github text-dark'  style={{fontSize: 55}}></i></a> <span> </span>
+			<a href='https://www.linkedin.com/in/danielgraugnard'><i className='fa fa-linkedin-square text-dark' style={{fontSize: 55}}></i></a>
 		</div>
 	)
 }
