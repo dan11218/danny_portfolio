@@ -10,10 +10,7 @@ const Projects = (props) => {
 				<div className='card-body'>
 					<h2 className='card-title'>CATalog</h2>
 					<p className='card-text'>
-						HILDA is a platform for school psychologists to get organized and easily
-						manage their day to day projects. HILDA makes it easy to quickly view all
-						your cases, add new cases/students, and connect and share a child's IEP
-						progress with their parents.
+						A place for you to track all your favorite kitties. Create, update, and delete your cats thanks to a solid back-end built with Ruby on Rails!
 					</p>
 					<a className='btn btn-dark' href='https://github.com/dan11218/CATalog'>View on Github</a><span> </span>
 					<a className='btn btn-dark' href='https://nameless-ravine-18613.herokuapp.com/'>Visit Site</a>
