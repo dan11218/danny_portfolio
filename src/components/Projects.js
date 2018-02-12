@@ -54,7 +54,7 @@ const Projects = (props) => {
 						Boozebible, easily search an extensive cocktail API by name or just that
 						batch of tomatoes you so desperately want to get rid of.
 					</p>
-					<a className='btn btn-dark' href='https://git.generalassemb.ly/Halsa/project-3'>View on Github</a><span> </span>
+					<a className='btn btn-dark' href='https://github.com/dan11218/Boozebible'>View on Github</a><span> </span>
 					<a className='btn btn-dark' href='https://boozebible.herokuapp.com/'>Visit Site</a>
 				</div>
 			</div>
