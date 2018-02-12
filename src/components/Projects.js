@@ -39,7 +39,7 @@ const Projects = (props) => {
 						practices of today. As colaborative project with David Azaria and Yanina Tsutieva,
 						Halsa is a one-stop shop for users to register and discover best plans that suit their needs.
 					</p>
-					<a className='btn btn-dark' href="https://git.generalassemb.ly/Halsa/project-3">View on Github</a><span> </span>
+					<a className='btn btn-dark' href="https://github.com/dan11218/halsa">View on Github</a><span> </span>
 					<a className='btn btn-dark' href="https://halsa.herokuapp.com/">Visit Site</a>
 				</div>
 			</div>
