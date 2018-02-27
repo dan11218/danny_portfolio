@@ -15,7 +15,7 @@ const Projects = (props) => {
 						your cases, add new cases/students, and connect and share a child's IEP
 						progress with their parents.
 					</p>
-					<a className='btn btn-dark' href='https://git.generalassemb.ly/dan11218-GA/project_4'>View on Github</a><span> </span>
+					<a className='btn btn-dark' href='https://github.com/dan11218/hilda'>View on Github</a><span> </span>
 					<a className='btn btn-dark' href='https://hilda.netlify.com/'>Visit Site</a>
 				</div>
 			</div>
