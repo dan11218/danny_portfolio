@@ -6,18 +6,6 @@ const Projects = (props) => {
 	return (
 		<div className='container'>
 			<div className='card' style={{width: '18rem;'}}>
-				<img alt='CATalog' className='card-img-top' src={require('../images/catalog.png')} />
-				<div className='card-body'>
-					<h2 className='card-title'>CATalog</h2>
-					<p className='card-text'>
-						A place for you to track all your favorite kitties. Create, update, and delete your cats thanks to a solid back-end built with Ruby on Rails!
-					</p>
-					<a className='btn btn-dark' href='https://github.com/dan11218/CATalog'>View on Github</a><span> </span>
-					<a className='btn btn-dark' href='https://nameless-ravine-18613.herokuapp.com/'>Visit Site</a>
-				</div>
-			</div>
-			<br />
-			<div className='card' style={{width: '18rem;'}}>
 				<img alt='hilda' className='card-img-top' src={require('../images/hilda.png')} />
 				<div className='card-body'>
 					<h2 className='card-title'>HILDA</h2>
@@ -43,6 +31,18 @@ const Projects = (props) => {
 					</p>
 					<a className='btn btn-dark' href="https://github.com/dan11218/halsa">View on Github</a><span> </span>
 					<a className='btn btn-dark' href="https://halsa.herokuapp.com/">Visit Site</a>
+				</div>
+			</div>
+			<br />
+			<div className='card' style={{width: '18rem;'}}>
+				<img alt='CATalog' className='card-img-top' src={require('../images/catalog.png')} />
+				<div className='card-body'>
+					<h2 className='card-title'>CATalog</h2>
+					<p className='card-text'>
+						A place for you to track all your favorite kitties. Create, update, and delete your cats thanks to a solid back-end built with Ruby on Rails!
+					</p>
+					<a className='btn btn-dark' href='https://github.com/dan11218/CATalog'>View on Github</a><span> </span>
+					<a className='btn btn-dark' href='https://nameless-ravine-18613.herokuapp.com/'>Visit Site</a>
 				</div>
 			</div>
 			<br />
