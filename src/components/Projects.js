@@ -17,7 +17,8 @@ const Projects = (props) => {
 				</div>
 			</div>
 			<br />
-			{/* <div className='card' style={{width: '18rem;'}}>
+			<div className='card' style={{width: '18rem;'}}>
+				<img alt='hilda' className='card-img-top' src={require('../images/hilda.png')} />
 				<div className='card-body'>
 					<h2 className='card-title'>HILDA</h2>
 					<p className='card-text'>
@@ -27,8 +28,9 @@ const Projects = (props) => {
 						progress with their parents.
 					</p>
 					<a className='btn btn-dark' href='https://git.generalassemb.ly/dan11218-GA/project_4'>View on Github</a>
+					<a className='btn btn-dark' href='https://hilda.netlfy.com'>Visit Site</a>
 				</div>
-			</div> */}
+			</div>
 			<br />
 			<div className='card' style={{width: '18rem;'}}>
 				<img alt='halsa' className='card-img-top' src={require('../images/halsa.png')} />

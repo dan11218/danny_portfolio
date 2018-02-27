@@ -10,7 +10,7 @@ const HomePage = (props) => {
 				to empathize with my users and fulfill their needs with my technical skills
 				and abilities to approach challenges creatively and confidently.
 				When I am not wearing the hat of an engineer, I am a writer looking
-				for a new book to pick for inspiration or to write a new chapter in my memoir
+				for a new book to pick for inspiration or to write a new chapter in my memoir.
 			</p>
 			<a href='https://www.github.com/dan11218'><i className='fa fa-github text-dark'  style={{fontSize: 55}}></i></a> <span> </span>
 			<a href='https://www.linkedin.com/in/danielgraugnard'><i className='fa fa-linkedin-square text-dark' style={{fontSize: 55}}></i></a>
