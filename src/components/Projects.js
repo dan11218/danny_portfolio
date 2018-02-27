@@ -16,7 +16,7 @@ const Projects = (props) => {
 						progress with their parents.
 					</p>
 					<a className='btn btn-dark' href='https://git.generalassemb.ly/dan11218-GA/project_4'>View on Github</a>
-					<a className='btn btn-dark' href='https://hilda.netlfy.com'>Visit Site</a>
+					<a className='btn btn-dark' href='https://hilda.netlify.com/'>Visit Site</a>
 				</div>
 			</div>
 			<br />
