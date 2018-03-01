@@ -3,7 +3,7 @@ import '../../node_modules/font-awesome/css/font-awesome.min.css';
 
 const HomePage = (props) => {
 	return (
-		<div className='jumbotron'>
+		<div className='jumbotron text-white text-center'>
 			<p className='lead'>
 				The need to solve problems quickly and creatively
 				is my engine towards my new career as a Junior Software Engineer. I strive
@@ -12,8 +12,8 @@ const HomePage = (props) => {
 				When I am not wearing the hat of an engineer, I am a writer looking
 				for a new book to pick for inspiration or to write a new chapter in my memoir.
 			</p>
-			<a href='https://www.github.com/dan11218'><i className='fa fa-github text-dark'  style={{fontSize: 55}}></i></a> <span> </span>
-			<a href='https://www.linkedin.com/in/danielgraugnard'><i className='fa fa-linkedin-square text-dark' style={{fontSize: 55}}></i></a>
+			<a href='https://www.github.com/dan11218'><i className='fa fa-github text-white'  style={{fontSize: 55}}></i></a> <span> </span>
+			<a href='https://www.linkedin.com/in/danielgraugnard'><i className='fa fa-linkedin-square text-white' style={{fontSize: 55}}></i></a>
 		</div>
 	)
 }

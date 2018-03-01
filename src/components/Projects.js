@@ -13,7 +13,7 @@ const Projects = (props) => {
 						HILDA is a platform for school psychologists to get organized and easily
 						manage their day to day projects. HILDA makes it easy to quickly view all
 						your cases, add new cases/students, and connect and share a child's IEP
-						progress with their parents.
+						progress with their parents. <i>Reference available upon request</i>
 					</p>
 					<a className='btn btn-dark' href='https://github.com/dan11218/hilda'>View on Github</a><span> </span>
 					<a className='btn btn-dark' href='https://hilda.netlify.com/'>Visit Site</a>

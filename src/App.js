@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import './App.css'
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Projects from './components/Projects';
@@ -18,6 +17,7 @@ class App extends Component {
           <Route exact path='/Contact' component={Contact} />
           {/* <Route exact path='/Resume' component={Resume} /> */}
         </Switch>
+        <p style={{fontSize: '10px'}}>© Copyright 2018 Daniel Graugnard</p>
       </div>
     );
   }

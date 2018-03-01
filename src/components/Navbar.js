@@ -1,27 +1,36 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 const NavBar = (props) => {
   return (
-    <nav className='navbar navbar-dark' style={{backgroundColor: '#35383f'}}>
-      <div className='navbar-brand'>
-        <img src={require('../images/logo-large.png')} style={{width: '200px'}} />
+    <nav className='navbar navbar-expand-lg navbar-light' style={{background: 'none'}}>
+      <div className="navbar-brand">
+        <h1>DANIEL GRAUGNARD</h1>
       </div>
-      <ul className='navbar-nav'>
-        <Link to='/' className='text-white' className='nav-item text-white'>
-          Home
-        </Link>
-        <Link to='/Projects' className='nav-item text-white'>
-          Projects
-        </Link>
-        {/* <Link to='/Resume' className='nav-item'>
-          Resume
-        </Link> */}
-        <Link to='/Contact' className='nav-item text-white'>
-          Contact
-        </Link>
-      </ul>
+      <button className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className='collapse navbar-collapse' id='navbarSupportedContent'>
+        <ul className='navbar-nav mr-auto'>
+          <li className='nav-item'>
+            <NavLink className='nav-link' to='/'>Home</NavLink>
+          </li>
+          <li className='nav-item'>
+            <NavLink className='nav-link' to='/Projects'>Projects</NavLink>
+          </li>
+          <li className='nav-item'>
+            <NavLink className='nav-link' to='/Contact'>Contact</NavLink>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 }
