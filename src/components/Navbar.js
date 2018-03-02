@@ -4,9 +4,10 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = (props) => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light' style={{background: 'none'}}>
+    <nav className='navbar navbar-expand-lg navbar-light sticky-top' style={{background: 'rgba(255, 255, 255, .95)'}}>
+      <div className='container-fluid'>
       <div className="navbar-brand">
-        <h1>DANIEL GRAUGNARD</h1>
+        <img alt='Daniel Graugnard' style={{width: '8rem'}} src={require('../images/logo-large.png')} />
       </div>
       <button className="navbar-toggler"
         type="button"
@@ -30,6 +31,7 @@ const NavBar = (props) => {
             <NavLink className='nav-link' to='/Contact'>Contact</NavLink>
           </li>
         </ul>
+      </div>
       </div>
     </nav>
   );
