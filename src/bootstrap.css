@@ -4933,6 +4933,8 @@ tbody.collapse.show {
   position: static;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./images/lightbulbs.jpg') center center;
+  background-size: cover;
 }
 
 @media (min-width: 576px) {
