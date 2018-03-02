@@ -1,7 +1,7 @@
 import React from 'react';
 import {Document} from 'react-pdf/build/entry.webpack';
 
-const Resume = (props) => {
+const About = (props) => {
   return(
     <div className='container'>
       <Document file='../../public/danielgraugnard_resume.pdf'>
@@ -10,4 +10,4 @@ const Resume = (props) => {
   )
 }
 
-export default Resume;
+export default About;
