@@ -5,6 +5,9 @@ import React from 'react';
 const Projects = (props) => {
 	return (
 		<div className='container'>
+			<div id='project-header' className='text-center'>
+				<h1 className='display-4'>A few things I'm working on.</h1>
+			</div>
 			<div className='card' style={{width: '18rem;'}}>
 				<img alt='hilda' className='card-img-top' src={require('../images/hilda.png')} />
 				<div className='card-body'>

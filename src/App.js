@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import Home from './components/Home';
+import Jumbotron from './components/Jumbotron';
 import Footer from './components/Footer'
 import About from './components/About';
 import Projects from './components/Projects';
@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className='app'>
         <NavBar />
-        <Home />
+        <Jumbotron />
         <About />
         <Projects />
         <Footer />

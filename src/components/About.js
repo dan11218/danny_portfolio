@@ -19,8 +19,8 @@ const About = (props) => {
           </p>
         </div>
         <div id='about-box' className='col-sm'>
-          <i id='about-icon' className='fa fa-code' />
-          <h2>Code</h2>
+          <i id='about-icon' className='fa fa-gears' />
+          <h2>Development</h2>
           <p>
             From animations, SEO, data rendering, and form actions. I use
             industry-standard technologies such as ReactJS and Bootstrap 4 to
@@ -30,6 +30,10 @@ const About = (props) => {
         <div id='about-box' className='col-sm'>
           <i id='about-icon' className='fa fa-handshake-o' />
           <h2>Teamwork</h2>
+          <p>
+            Creating your website is a team effort. I work closely with my clients
+            to transform their ideas from an MVP into an ambitious final product.
+          </p>
         </div>
       </div>
     </div>

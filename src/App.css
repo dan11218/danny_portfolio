@@ -2,14 +2,22 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-#hire-button {
-  border-radius: 40px;
-  margin-top: 30px;
-  font-size: 20px;
+#jumbotron {
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./images/lightbulbs.jpg') center center;
+  background-size: cover;
 }
 
-#jumbotron {
-  padding: 10%;
+#slogan {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+#hire-button {
+  border-radius: 45px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  padding: 15px 20px;
+  font-size: 20px;
 }
 
 footer {
@@ -28,6 +36,10 @@ footer {
 #about-icon {
   font-size: 4rem;
   margin-bottom: 20px;
+}
+
+#project-header {
+  padding: 4rem;
 }
 
 #copywrite {
