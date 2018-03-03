@@ -1,5 +1,4 @@
 body {
-  padding-top: 70px;
   font-family: 'Lato', sans-serif;
 }
 
@@ -14,12 +13,21 @@ body {
 }
 
 footer {
-  padding: 80px 0 50px;
+  padding: 50px 0 20px;
   background-color: #282d2f;
+}
+
+#about {
+  padding: 80px 0 80px;
 }
 
 #contact-buttons {
   font-size: 50px;
+}
+
+#about-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
 }
 
 #copywrite {
