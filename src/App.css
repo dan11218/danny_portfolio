@@ -5,11 +5,22 @@ body {
 #jumbotron {
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./images/lightbulbs.jpg') center center;
   background-size: cover;
+  margin-bottom: 0px;
 }
 
 #slogan {
   margin-top: 30px;
   padding-top: 30px;
+}
+
+#about {
+  padding: 80px 0 80px;
+  background-color: #e8e8e8;
+}
+
+#about-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
 }
 
 #hire-button {
@@ -20,26 +31,21 @@ body {
   font-size: 20px;
 }
 
-footer {
-  padding: 50px 0 20px;
-  background-color: #282d2f;
-}
-
-#about {
+#blockquote {
   padding: 80px 0 80px;
-}
-
-#contact-buttons {
-  font-size: 50px;
-}
-
-#about-icon {
-  font-size: 4rem;
-  margin-bottom: 20px;
 }
 
 #project-header {
   padding: 4rem;
+}
+
+#footer {
+  padding: 50px 0 20px;
+  background-color: #282d2f;
+}
+
+#contact-buttons {
+  font-size: 50px;
 }
 
 #copywrite {
