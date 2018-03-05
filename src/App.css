@@ -4,6 +4,11 @@ body {
 
 #jumbotron {
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./images/lightbulbs.jpg') center center;
+  min-height: 500px;
+  /* Creates the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0px;
 }
@@ -35,8 +40,20 @@ body {
   padding: 80px 0 80px;
 }
 
+#projects {
+  background-color: #e8e8e8;
+}
+
 #project-header {
   padding: 4rem;
+}
+
+#project-section {
+  padding: 20px 0px 20px;
+}
+
+#project-image {
+  width: 30rem;
 }
 
 #footer {
