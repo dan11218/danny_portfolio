@@ -1,7 +1,3 @@
-body {
-  font-family: 'Lato', sans-serif;
-}
-
 #jumbotron {
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./images/lightbulbs.jpg') center center;
   min-height: 500px;
@@ -28,6 +24,10 @@ body {
   margin-bottom: 20px;
 }
 
+#about-box {
+  margin: 10px;
+}
+
 #hire-button {
   border-radius: 45px;
   margin-top: 30px;
@@ -45,16 +45,31 @@ body {
 }
 
 #project-header {
-  padding: 4rem;
+  font-size: 60px;
+  padding: 5rem 0rem 5rem;
+}
+
+@media (max-width: 375px) {
+  #project-header {
+    font-size: 20px;
+    padding: 40px;
+  }
 }
 
 #project-section {
-  padding: 20px 0px 20px;
+  padding: 40px 0px 40px;
 }
 
-#project-image {
+/* #project-image {
   width: 30rem;
 }
+
+@media (max-width: 1000px) {
+  #project-image {
+    width: 20rem;
+    margin: 10px 5px 15px;
+  }
+} */
 
 #footer {
   padding: 50px 0 20px;
