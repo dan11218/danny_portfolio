@@ -4,7 +4,7 @@ import React from 'react';
 
 const NavBar = (props) => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light sticky-top' style={{background: 'rgba(255, 255, 255, .95)'}}>
+    <nav className='navbar navbar-expand-lg navbar-light' style={{background: 'rgba(255, 255, 255, .95)'}}>
       <div className='container-fluid'>
         <div className="navbar-brand">
           <img alt='Daniel Graugnard' style={{width: '8rem'}} src={require('../images/logo-large.png')} />

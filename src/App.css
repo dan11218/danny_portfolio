@@ -1,5 +1,5 @@
 #jumbotron {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./images/lightbulbs.jpg') center center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/lightbulbs.jpg') center center;
   min-height: 500px;
   /* Creates the parallax scrolling effect */
   background-attachment: fixed;
@@ -15,8 +15,9 @@
 }
 
 #about {
+  color: white;
   padding: 80px 0 80px;
-  background-color: #e8e8e8;
+  background-color: #282d2f;
 }
 
 #about-icon {
@@ -24,8 +25,8 @@
   margin-bottom: 20px;
 }
 
-#about-box {
-  margin: 10px;
+#about-content {
+  padding: 10px;
 }
 
 #hire-button {
@@ -41,7 +42,8 @@
 }
 
 #projects {
-  background-color: #e8e8e8;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
 
 #project-header {
@@ -57,7 +59,10 @@
 }
 
 #project-section {
-  padding: 40px 0px 40px;
+  border-radius: 45px;
+  padding: 40px 20px 40px;
+  margin: 20px 0px 20px;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 /* #project-image {
