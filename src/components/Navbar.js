@@ -4,10 +4,10 @@ import React from 'react';
 
 const NavBar = (props) => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light' style={{background: 'rgba(255, 255, 255, .95)'}}>
+    <nav id="navbar" className='navbar navbar-expand-lg navbar-dark navbar-fixed-top' >
       <div className='container-fluid'>
         <div className="navbar-brand">
-          <img alt='Daniel Graugnard' style={{width: '8rem'}} src={require('../images/logo-large.png')} />
+          <img alt='Daniel Graugnard' style={{width: '8rem'}} src={require('../images/logo-line.png')} />
         </div>
         {/* <button className="navbar-toggler"
           type="button"

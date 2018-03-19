@@ -1,3 +1,4 @@
+
 #jumbotron {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/lightbulbs.jpg') center center;
   min-height: 500px;
@@ -9,46 +10,77 @@
   margin-bottom: 0px;
 }
 
-#slogan {
-  margin-top: 30px;
-  padding-top: 30px;
+#logo {
+  position: relative;
+}
+
+#hire-button {
+  border-radius: 45px;
+  margin-top: 60px;
+  margin-bottom: 90px;
+  padding: 15px 20px;
+  font-size: 20px;
 }
 
 #about {
-  color: white;
-  padding: 80px 0 80px;
-  background-color: #282d2f;
+  color: #333236;
+  background-color: #333236;
+}
+
+#about-box {
+  margin: 3rem 2rem 3rem;
+  padding: 2rem;
 }
 
 #about-icon {
-  font-size: 4rem;
-  margin-bottom: 20px;
+  font-size: 5rem;
+  margin: 2rem;
+}
+
+@media (max-width: 500px) {
+  #about-box {
+    margin: 1rem 1rem 1rem;
+    padding: 1rem;
+  }
+  
+  #about-icon {
+    font-size: 5rem;
+    margin: 2rem;
+  }
 }
 
 #about-content {
   padding: 10px;
 }
 
-#hire-button {
-  border-radius: 45px;
-  margin-top: 30px;
-  margin-bottom: 90px;
-  padding: 15px 20px;
-  font-size: 20px;
+#learn-more {
+  margin: 0 5rem 0;
+}
+
+#quotes {
+  margin-top: 2rem;
 }
 
 #blockquote {
-  padding: 80px 0 80px;
+  padding: 2rem 0 3rem;
 }
 
 #projects {
-  color: rgb(0, 0, 0);
-  background-color: #ffffff;
+  color: #333236;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/laptop.jpg') center center;
+  min-height: 500px;
+  /* Creates the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
 }
 
 #project-header {
+  color: white;
   font-size: 60px;
-  padding: 5rem 0rem 5rem;
+  padding: 5rem 0rem 2rem;
 }
 
 @media (max-width: 375px) {
@@ -59,26 +91,37 @@
 }
 
 #project-section {
-  border-radius: 45px;
+  color: white;
   padding: 40px 20px 40px;
-  margin: 20px 0px 20px;
-  background: rgba(255, 255, 255, 0.3);
+  margin: 30px 0px 30px;
+  background-color: #0000002d;
+  border: 2rem #333236;
+  box-shadow: 10px 5px 5px #25242794;
 }
 
-/* #project-image {
-  width: 30rem;
+#project-card {
+  background: none;
+  border: none;
 }
 
-@media (max-width: 1000px) {
-  #project-image {
-    width: 20rem;
-    margin: 10px 5px 15px;
+#visit-site {
+  margin: 0 20rem 0;
+}
+
+@media (max-width: 500px) {
+  #visit-site {
+    margin: 0 2rem 0;
   }
-} */
+
+  #project-section {
+    margin: 30px 0 30px;
+    padding: 5%;
+  }
+}
 
 #footer {
   padding: 50px 0 20px;
-  background-color: #282d2f;
+  background-color: #333236;
 }
 
 #contact-buttons {
