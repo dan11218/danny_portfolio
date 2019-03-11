@@ -17,7 +17,7 @@ class App extends Component {
         <Jumbotron />
         <About />
         {/* <Quotes /> */}
-        <Projects />
+        {/* <Projects /> */}
         <Footer />
       </div>
     );
