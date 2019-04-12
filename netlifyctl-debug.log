@@ -1,0 +1,48 @@
+[37mDEBU[0m[14 Mar 19 13:40 -0400] PreRun                                        [37marguments[0m=[] [37mcommand[0m=deploy
+[37mDEBU[0m[14 Mar 19 13:40 -0400] configure debug middleware                   
+[37mDEBU[0m[14 Mar 19 13:40 -0400] configure logging middleware                 
+[37mDEBU[0m[14 Mar 19 13:40 -0400] setup logger middleware: panic               
+[37mDEBU[0m[14 Mar 19 13:40 -0400] configure auth middleware                    
+[37mDEBU[0m[14 Mar 19 13:40 -0400] setup credentials                             [37mcredentials[0m=0x146b000
+[37mDEBU[0m[14 Mar 19 13:40 -0400] configure client middleware                  
+[37mDEBU[0m[14 Mar 19 13:40 -0400] setup API endpoint                            [37mendpoint[0m="https://api.netlify.com"
+[37mDEBU[0m[14 Mar 19 13:40 -0400] configure site middleware                    
+[37mDEBU[0m[14 Mar 19 13:40 -0400] Querying for existing sites                  
+[37mDEBU[0m[14 Mar 19 13:40 -0400] GET /api/v1/sites?filter=all&name=danielgraugnard.com HTTP/1.1
+Host: api.netlify.com
+User-Agent: netlifyctl
+Accept: application/json
+Authorization: Bearer 3c446a5d77f645b73c26b96cbe852f832447eb676c2d9acc7580395600ad6308
+Accept-Encoding: gzip
+
+
+ 
+[37mDEBU[0m[14 Mar 19 13:40 -0400] HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Alt-Svc: clear
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: application/json; charset=utf-8
+Date: Thu, 14 Mar 2019 17:40:18 GMT
+Etag: W/"853b83b3c9f45c250e3d645c0c525eeb"
+Link: <https://api.netlify.com/api/v1/sites?filter=all&name=danielgraugnard.com&page=1>; rel=last
+Strict-Transport-Security: max-age=31536000
+Total: 1
+Vary: Origin
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Frame-Options: ALLOWALL
+X-Nf-Srv-Version: 704fab36ce693eb89b0c5022b32ce9e5a58d36e0
+X-Ratelimit-Limit: 100000000
+X-Ratelimit-Remaining: 99999999
+X-Ratelimit-Reset: 2019-03-14 17:41:18 UTC
+X-Request-Id: 4089a4b3-87d4-475e-9864-d194af8d620e
+X-Runtime: 0.124398
+
+16d1
+[{"id":"b3658e0d-20a3-40f1-b6ec-443d96aa7ff0","site_id":"b3658e0d-20a3-40f1-b6ec-443d96aa7ff0","plan":"nf_team_dev","plan_data":{"title":"Netlify Team Free","asset_acceleration":true,"form_processing":true,"cdn_propagation":"partial","build_gc_exchange":"buildbot-gc","build_node_pool":"buildbot-external-ssd","build_cluster":"buildbot-3","domain_aliases":true,"secure_site":false,"prerendering":true,"proxying":true,"ssl":"custom","rate_cents":0,"yearly_rate_cents":0,"cdn_network":"free_cdn_network","ipv6_domain":"cdn.makerloop.com","branch_deploy":true,"managed_dns":true,"geo_ip":true,"split_testing":true,"id":"nf_team_dev"},"ssl_plan":null,"premium":false,"claimed":true,"name":"danielgraugnard","custom_domain":"www.danielgraugnard.com","domain_aliases":[],"password":null,"notification_email":null,"url":"http://www.danielgraugnard.com","admin_url":"https://app.netlify.com/sites/danielgraugnard","deploy_id":"5c86cfdf616f3c0007327ce1","build_id":"","deploy_url":"http://master.danielgraugnard.netlify.com","state":"current","screenshot_url":"https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5c86cfdf616f3c0007327ce1/screenshot.png","created_at":"2018-02-06T20:24:22.325Z","updated_at":"2019-03-11T21:16:21.194Z","user_id":"5a79d796df9953672368412a","error_message":null,"ssl":false,"ssl_url":"https://www.danielgraugnard.com","force_ssl":null,"ssl_status":null,"max_domain_aliases":100,"build_settings":{"cmd":"yarn build","dir":"build","env":{},"created_at":"2018-02-06T21:49:56.062Z","updated_at":"2018-03-19T19:44:20.425Z","public_repo":true,"private_logs":null,"allowed_branches":["master"],"functions_dir":null,"installation_id":null,"skip_prs":null,"review_untrusted_builds":null,"provider":"github","repo_type":"git","repo_url":"https://github.com/dan11218/danny_portfolio","repo_branch":"master","repo_path":"dan11218/danny_portfolio","base":null,"deploy_key_id":"5a7a230292226a2aab2c3bf1"},"processing_settings":{"css":{"bundle":true,"minify":true},"js":{"bundle":true,"minify":true},"images":{"optimize":true},"html":{"pretty_urls":true},"skip":true},"prerender":null,"prerender_headers":null,"deploy_hook":"https://api.netlify.com/hooks/github","published_deploy":{"id":"5c86cfdf616f3c0007327ce1","site_id":"b3658e0d-20a3-40f1-b6ec-443d96aa7ff0","build_id":"5c86cfdf616f3c0007327ce2","state":"ready","name":"danielgraugnard","url":"http://www.danielgraugnard.com","ssl_url":"https://www.danielgraugnard.com","admin_url":"https://app.netlify.com/sites/danielgraugnard","deploy_url":"http://master.danielgraugnard.netlify.com","deploy_ssl_url":"https://master--danielgraugnard.netlify.com","created_at":"2019-03-11T21:15:11.037Z","updated_at":"2019-03-11T21:16:21.177Z","user_id":"5a79d796df9953672368412a","error_message":null,"required":[],"required_functions":[],"commit_ref":"7a6b196672bf252687e060d6ace2812c9015c4fe","review_id":null,"branch":"master","commit_url":"https://github.com/dan11218/danny_portfolio/commit/7a6b196672bf252687e060d6ace2812c9015c4fe","skipped":null,"locked":null,"log_access_attributes":{"type":"firebase","url":"https://netlify.firebaseio.com/builds/5c86cfdf616f3c0007327ce2/log"},"title":"removes tag manager","review_url":null,"published_at":"2019-03-11T21:16:20.146Z","context":"production","deploy_time":64,"available_functions":[],"summary":{"status":"ready","messages":[{"type":"info","title":"2 new files uploaded","description":"1 generated page and 1 asset changed.","details":"New pages include:\n- index.html\n"},{"type":"info","title":"No redirect rules processed","description":"This deploy did not include any redirect rules. [Learn more about redirects](https://www.netlify.com/docs/redirects/).","details":""},{"type":"info","title":"No header rules processed","description":"This deploy did not include any header rules. [Learn more about headers](https://www.netlify.com/docs/headers-and-basic-auth/).","details":""},{"type":"info","title":"All linked resources are secure","description":"Congratulations! No insecure mixed content found in your files.","details":null}]},"screenshot_url":"https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5c86cfdf616f3c0007327ce1/screenshot.png","site_capabilities":{"title":"Netlify Team Free","asset_acceleration":true,"form_processing":true,"cdn_propagation":"partial","build_gc_exchange":"buildbot-gc","build_node_pool":"buildbot-external-ssd","build_cluster":"buildbot-3","domain_aliases":true,"secure_site":false,"prerendering":true,"proxying":true,"ssl":"custom","rate_cents":0,"yearly_rate_cents":0,"cdn_network":"free_cdn_network","ipv6_domain":"cdn.makerloop.com","branch_deploy":true,"managed_dns":true,"geo_ip":true,"split_testing":true,"id":"nf_team_dev"},"committer":"dan11218"},"managed_dns":true,"jwt_secret":null,"jwt_roles_path":"app_metadata.authorization.roles","account_slug":"dan11218","account_name":"dangraug","account_type":"personal","capabilities":{"title":"Netlify Team Free","asset_acceleration":true,"form_processing":true,"cdn_propagation":"partial","build_gc_exchange":"buildbot-gc","build_node_pool":"buildbot-external-ssd","build_cluster":"buildbot-3","domain_aliases":true,"secure_site":false,"prerendering":true,"proxying":true,"ssl":"custom","rate_cents":0,"yearly_rate_cents":0,"cdn_network":"free_cdn_network","ipv6_domain":"cdn.makerloop.com","branch_deploy":true,"managed_dns":true,"geo_ip":true,"split_testing":true,"id":"nf_team_dev"},"active_subscription_ids":[],"external_contributors_enabled":false,"paid_individual_site_subscription":false,"dns_zone_id":"5a7a0f73df995351c568411b","identity_instance_id":null,"use_functions":null,"parent_user_id":null,"automatic_tls_provisioning":null,"disabled":null,"lifecycle_state":"active","id_domain":"b3658e0d-20a3-40f1-b6ec-443d96aa7ff0.netlify.com","use_lm":null,"build_image":null}]
+0
+
+
+ 
+[37mDEBU[0m[14 Mar 19 13:40 -0400] Got new path from the user                   
+[31mERRO[0m[14 Mar 19 13:40 -0400] command failed                                [31merror[0m="Error copying netlify.toml to the publish directory: /build: open /build/netlify.toml: no such file or directory"
